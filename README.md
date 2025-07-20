@@ -146,7 +146,7 @@
   </audio>
 
   <script>
-    // Target date and time: 20 July 2025, 16:09 WIB (WIB = UTC+7)
+    // Target date and time: 20 July 2025, 16:15 WIB (WIB = UTC+7)
     // We'll compare current time in UTC+7
     function isAccessAllowed() {
       const now = new Date();
@@ -156,9 +156,9 @@
       const utcPlus7 = new Date(utc + (7 * 3600000));
 
       // Target date exact hour/minute
-      // July 20, 2025 16:09 in UTC+7
+      // July 20, 2025 16:15 in UTC+7
       const target = new Date(Date.UTC(2025, 6, 20, 16 - 7, 25, 0)); // JS months: 0-based, so 6 = July
-      // 16:09 WIB = 16:09 at UTC+7 => in UTC is 09:25
+      // 16:15 WIB = 16:15 at UTC+7 => in UTC is 09:25
 
       /* Strict allow exact minute access only:
          show content only if current date and hour/minute matches exactly.
@@ -230,7 +230,7 @@
         `<div id="locked-message" role="alert" aria-live="assertive">
           <p>
             Ups! bukanya nanti aja, buru-buru amat sih, uda gasabar yaa,<br />
-            buka jam <strong>16:25 WIB</strong> tanggal <strong>20 Juli 2025</strong>.<br /><br />
+            buka jam <strong>16:15 WIB</strong> tanggal <strong>20 Juli 2025</strong>.<br /><br />
             Datang lagi ya nanti!
           </p>
         </div>`;
