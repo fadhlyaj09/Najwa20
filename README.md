@@ -156,9 +156,9 @@
       const utcPlus7 = new Date(utc + (7 * 3600000));
 
       // Target date exact hour/minute
-      // July 20, 2025 16:05 in UTC+7
+      // July 20, 2025 16:09 in UTC+7
       const target = new Date(Date.UTC(2025, 6, 20, 16 - 7, 25, 0)); // JS months: 0-based, so 6 = July
-      // 16:05 WIB = 16:05 at UTC+7 => in UTC is 09:25
+      // 16:09 WIB = 16:09 at UTC+7 => in UTC is 09:25
 
       /* Strict allow exact minute access only:
          show content only if current date and hour/minute matches exactly.
