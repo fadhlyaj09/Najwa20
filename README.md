@@ -146,7 +146,7 @@
   </audio>
 
   <script>
-    // Target date and time: 20 July 2025, 16:25 WIB (WIB = UTC+7)
+    // Target date and time: 20 July 2025, 16:09 WIB (WIB = UTC+7)
     // We'll compare current time in UTC+7
     function isAccessAllowed() {
       const now = new Date();
